@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/espace_vert"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/boutonEV"
+                android:layout_width="match_parent"
+                android:layout_height="272dp"
+                android:background="@android:color/transparent"
+                android:text="Espace vert"
+                android:textColor="?attr/colorButtonNormal"
+                android:textColorLink="@android:color/holo_blue_dark"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/materiel"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/boutonMateriel"
+                android:layout_width="match_parent"
+                android:layout_height="278dp"
+                android:background="@android:color/transparent"
+                android:text="Mobilier urbain"
+                android:textColor="@color/design_default_color_primary_dark"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/voierie"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/boutonVoierie"
+                android:layout_width="match_parent"
+                android:layout_height="316dp"
+                android:background="@android:color/transparent"
+                android:text="Voierie"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
