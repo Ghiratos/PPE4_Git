@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
                         Log.d("Passage connexion", "************************** La connexion a bien été effectuée");
                         Intent intent = new Intent(MainActivity.this, Menu.class);  //Lancer l'activité DisplayVue
                         startActivity(intent);    //Afficher la vue
+                        finish();
 
                 } else {
                         Toast.makeText(MainActivity.this, "Les données de connexion sont incorrectes", Toast.LENGTH_SHORT).show();
